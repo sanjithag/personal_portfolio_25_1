@@ -5,6 +5,7 @@ import Skills from './components/Skills';
 import Education from './components/Education';
 import Experience from './components/Experience';
 import Contact from './components/Contact';
+import Projects from './components/Projects'
 
 import './styles.css';
 
@@ -15,12 +16,10 @@ function App() {
       <Sidebar />
       <main className="flex-grow-1">
         <About />
-        <Services />
         <Skills />
         <Education />
         <Experience />
-        <Work />
-        <Blog />
+        <Projects />
         <Contact />
       </main>
     </div>
