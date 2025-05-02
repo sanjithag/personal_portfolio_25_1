@@ -6,6 +6,9 @@ import Education from './components/Education';
 import Experience from './components/Experience';
 import Contact from './components/Contact';
 
+import './styles.css';
+
+
 function App() {
   return (
     <div className="d-flex">
